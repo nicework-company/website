@@ -13,7 +13,7 @@ const IndexPage = () => (
     <p>
       <h3>Contact</h3>
       <strong>E-Mail: </strong>
-      <a href="mailto://eralp@nicework.company" >eralp@nicework.company</a>
+      <a href="mailto://contact@nicework.company" >contact@nicework.company</a>
       <p>
         <strong>Address:</strong>
         <p>
