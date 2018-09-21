@@ -1,19 +1,19 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Nice Work Company',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'nicework.company-website',
+        short_name: 'nicework.company',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#1B1464',
+        theme_color: '#1B1464',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/images/icon.jpg', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-offline',

@@ -1,14 +1,30 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 
 const IndexPage = () => (
   <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <h1>Hi,</h1>
+    <p>
+      We are the Nice Work Company.
+    </p>
+    <p>
+    </p>
+    <p>
+      <h3>Contact</h3>
+      <strong>E-Mail: </strong>
+      <a href="mailto://eralp@nicework.company" >eralp@nicework.company</a>
+      <p>
+        <strong>Address:</strong>
+        <p>
+          NiceWork OÜ<br/>
+          Harju maakond, Lasnamäe linnaosa,<br/>
+          Sepapaja tn 6,<br/>
+          15551<br/>
+          Tallinn / Estonia
+        </p>
+      </p>
+    </p>
   </Layout>
 )
 
