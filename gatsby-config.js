@@ -10,8 +10,8 @@ module.exports = {
         name: 'nicework.company-website',
         short_name: 'nicework.company',
         start_url: '/',
-        background_color: '#1B1464',
-        theme_color: '#1B1464',
+        background_color: '#fa8231',
+        theme_color: '#fa8231',
         display: 'minimal-ui',
         icon: 'src/images/icon.jpg', // This path is relative to the root of the site.
       },

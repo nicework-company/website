@@ -9,13 +9,11 @@ const IndexPage = () => (
       We are the Nice Work Company.
     </p>
     <p>
-    </p>
-    <p>
       <h3>Contact</h3>
       <strong>E-Mail: </strong>
-      <a href="mailto://contact@nicework.company" >contact@nicework.company</a>
+      <a href="mailto:contact@nicework.company" >contact@nicework.company</a>
       <p>
-        <strong>Address:</strong>
+        <strong>Address: </strong>
         <p>
           NiceWork OÜ<br/>
           Harju maakond, Lasnamäe linnaosa,<br/>
