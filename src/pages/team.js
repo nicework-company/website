@@ -27,7 +27,7 @@ const TeamPage = () => (
           </h3>
             Hello, I'm the only person working in this company.
             I make software stuff, which are usually apps, games, toys and experiments.
-            Learn more about me from at&nbsp;
+            Learn more about me at&nbsp;
             <a href="http://eralpkaraduman.com">eralpkaraduman.com</a>
           <div>
             <strong>E-Mail:</strong>&nbsp;
