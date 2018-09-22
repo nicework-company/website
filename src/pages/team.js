@@ -25,14 +25,14 @@ const TeamPage = () => (
           <h3 style={{padding: 0, margin: 0, marginBottom: 10}}>
             Eralp Karaduman
           </h3>
+            Hello, I'm the only person working in this company.
+            I make software stuff, which are usually apps, games, toys and experiments.
+            Learn more about me from at&nbsp;
+            <a href="http://eralpkaraduman.com">eralpkaraduman.com</a>
           <div>
             <strong>E-Mail:</strong>&nbsp;
-            <a href="mailto://eralp@nicework.company" >eralp@nicework.company</a>
+            <a href="mailto:eralp@nicework.company" >eralp@nicework.company</a>
           </div>
-          Hello, I'm the only person working in this company.
-          I make software stuff, which are usually apps, games, toys and experiments.
-          Learn more about me from at personal website:&nbsp;
-          <a href="http://eralpkaraduman.com">eralpkaraduman.com</a>
         </p>
       
   </Layout>
