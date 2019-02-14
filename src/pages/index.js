@@ -14,7 +14,7 @@ const IndexPage = () => (
       <a href="mailto:contact@nicework.company" >contact@nicework.company</a>
       <p>
         <strong>Address: </strong>
-        <p>
+        <p style=" font-size: 0.8em;">
           NiceWork OÜ<br/>
           Harju maakond, Lasnamäe linnaosa,<br/>
           Sepapaja tn 6,<br/>
