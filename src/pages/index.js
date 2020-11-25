@@ -21,6 +21,8 @@ const IndexPage = () => (
           15551<br/>
           Tallinn / Estonia
         </p>
+        <strong>Registration Code:</strong>
+        <p>14559412</p>
       </p>
     </p>
   </Layout>
