@@ -3,6 +3,7 @@ module.exports = {
     title: 'Nice Work Company',
   },
   plugins: [
+    'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,

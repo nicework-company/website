@@ -1,30 +1,30 @@
 import React from 'react'
-
 import Layout from '../components/layout'
+import { BoldBodyText, LinkText, BodyText } from '../components/text'
+
 
 const IndexPage = () => (
   <Layout>
-    <h1>Hi,</h1>
-    <p>
+    <h2>Hi,</h2>
+    <BodyText style={{marginBottom: 20}}>
       We are the Nice Work Company.
-    </p>
-    <p>
-      <h3>Contact</h3>
-      <strong>E-Mail: </strong>
-      <a href="mailto:contact@nicework.company" >contact@nicework.company</a>
-      <p>
-        <strong>Address: </strong>
-        <p style={{fontSize: '0.8em'}}>
-          NiceWork OÜ<br/>
-          Harju maakond, Lasnamäe linnaosa,<br/>
-          Sepapaja tn 6,<br/>
-          15551<br/>
-          Tallinn / Estonia
-        </p>
-        <strong>Registration Code: </strong>
-        <p>14559412</p>
-      </p>
-    </p>
+    </BodyText>
+    <address>
+      <BoldBodyText>E-Mail: </BoldBodyText>
+      <LinkText>
+        <a href="mailto:contact@nicework.company">contact@nicework.company</a>
+      </LinkText>
+      <BoldBodyText>Address: </BoldBodyText>
+      <BodyText>
+        NiceWork OÜ<br />
+        Harju maakond, Lasnamäe linnaosa,<br />
+        Sepapaja tn 6,<br />
+        15551<br />
+        Tallinn / Estonia
+      </BodyText>
+      <BoldBodyText>Registration Code: </BoldBodyText>
+      <BodyText>14559412</BodyText>
+    </address>
   </Layout>
 )
 

@@ -44,7 +44,8 @@ const Header = ({ siteTitle }) => (
         <img src={logo} alt="nice work company logo" style={{
               margin: 0,
               width: 60,
-              marginRight: 20
+              marginRight: 20,
+              borderRadius: 30
             }} />
         <h1 style={{ margin: 0, fontSize: '2.2em' }}>
           <Link
